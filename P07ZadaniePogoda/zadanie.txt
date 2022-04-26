@@ -1,0 +1,14 @@
+﻿
+
+Program pozwala na wczytanie nazwy miasta z listy rozwijanej
+(źródłem tej listy jest plik tekstowy z podanymi miastami)
+
+po kliknieciu przycisku wczytaj , w  labelce pojawia się 
+aktualna temperatura dla  danego miasta, pobrana z google.  (wykorzystaj Dzien3\P09ZadaniePogoda)
+
+rozbuduj program tak aby wyświetał ikonkę 
+- snieg gdy temp w C ponizej 0 
+- chmurka gdy  temp  C od 0 do 10
+- slonce gdy temp powyzej 10 
+
+Dodaj opcje mozliwosci wyboru jednostki w jakiej ma byc wysietalana temperatura 

@@ -61,6 +61,10 @@ namespace P03ZadanieBiblioteka
                     }
                 }
             };
+            Console.WriteLine(k.Sygnatury[1].Wypozyczenia[0].Uwagi);
+
+            Console.ReadLine();
+            
         }
     }
 }
