@@ -1,0 +1,54 @@
+﻿
+https://github.com/tomasz-trener/12ZDzien4
+
+ Płatne: 
+ EnterpiseArchitect 
+ LBLGEN
+ Visual Paradigm
+
+ Bezpłatne
+ Wireflow
+ Modelio
+ NClass
+ Archi
+ UML Designer
+ Draw.io 
+
+
+
+
+ 1) Sygnatura
+    - int NumerSygnatury
+    - Wypozyczenie[] Wypozyczenia
+    - string Komentarz 
+    - bool Aktywna
+ 2) Czytelnik
+    - string Numer
+    - Wypozyczenie[] Wypozyczenia 
+    - string[] Uwagi
+ 3) Wypozyczenie 
+    - Datetime DataWypozyzenia
+    - DateTime DataPrzewidywanegoZwrotu
+    - DateTime DataRzeczywistegoZwrotu
+    - Czytelnik Czytelnik
+    - string Uwagi
+    - Sygnatura Sygnatura 
+    - int Kara
+    - Wypozyczenie Przedluzenie
+ 4) Karta
+    - int[] NrKarty
+    - string Tytul
+    - Autor[] Autorzy
+    - int NrWydania
+    - DateTime dataZakupu
+    - Cena Cena
+    - Karta Nastepna
+    - Karta Poprzednia 
+    - Sygnatura[] Sygnatury
+ 5) Autor
+    - string Imie
+    - string Nazwisko
+    - string DrugieImie
+ 6) Cena
+    - double Wartosc
+    - string Uwagi
