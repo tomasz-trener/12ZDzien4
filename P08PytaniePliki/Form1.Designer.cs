@@ -75,10 +75,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(311, 340);
-            this.Controls.Add(this.btnZapisz);
             this.Controls.Add(this.txtSciezka);
             this.Controls.Add(this.btnWczytaj);
             this.Controls.Add(this.txtDane);
+            this.Controls.Add(this.btnZapisz);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

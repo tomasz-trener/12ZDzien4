@@ -36,7 +36,7 @@ namespace P08PytaniePliki
            
              
             txtSciezka.Text = ofd.FileName;
-            //https://github.com/tomasz-trener/12DDzien4
+            //https://github.com/tomasz-trener/12ZDzien4
         }
     }
 }
