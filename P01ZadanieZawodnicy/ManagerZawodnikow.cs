@@ -84,6 +84,33 @@ namespace P01ZadanieZawodnicy
             return zawodnicy.ToArray();
         }
 
+        public double PodajSredniWzrost()
+        {
+            int[] wzrosty = new int[zawodnicy.Length];
+            for (int i = 0; i < zawodnicy.Length; i++)
+                wzrosty[i] = zawodnicy[i].Wzrost;
+
+            return PoliczSrednia(wzrosty);
+        }
+
+        public double PodajSredniWaga()
+        {
+            int[] wagai = new int[zawodnicy.Length];
+            for (int i = 0; i < zawodnicy.Length; i++)
+                wagai[i] = zawodnicy[i].Waga;
+
+            return PoliczSrednia(wagai);
+        }
+
+        private double PoliczSrednia(int[] liczby)
+        {
+            double suma = 0;
+            foreach (var e in liczby)
+                suma += e;
+
+            return suma / liczby.Length;
+        }
+
 
     }
 }
